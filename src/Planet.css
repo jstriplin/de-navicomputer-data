@@ -1,0 +1,46 @@
+.planet-container {
+    display: flex;
+    justify-content: center;
+}
+
+.planet-row {
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px
+}
+
+.planet {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    min-width: 225px;
+}
+
+.planet h1 {
+    font-size: 26px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.planet-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.planet-population {
+    width: 200px;
+}
+
+.planet-climate {
+    width: 200px;
+}
+
+.planet-terrain {
+    width: 200px;
+}
